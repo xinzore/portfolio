@@ -17,7 +17,7 @@ const Footer = () => {
     const fetchRepoDetails = async () => {
       try {
         const { data } = await axios.get(
-          "https://api.github.com/users/Nafisarkar"
+          "https://api.github.com/users/xinzore"
         );
         setRepoDetails({
           repocount: data.public_repos,
