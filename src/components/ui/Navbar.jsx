@@ -123,7 +123,7 @@ const Navbar = () => {
               to="/project"
               onClick={toggleMenu}
             >
-              Project
+              Projelerim
             </NavLink>
           ) : (
             <NavLink
@@ -131,11 +131,11 @@ const Navbar = () => {
               to="/"
               onClick={toggleMenu}
             >
-              About
+              Hakkımda
             </NavLink>
           )}
 
-          <Button onClick={downloadResume}>Resume</Button>
+          <Button onClick={downloadResume}>CV</Button>
         </div>
         <AiOutlineMenu className="lg:hidden mx-8 size-5" onClick={toggleMenu} />
       </div>
