@@ -94,7 +94,7 @@ const Navbar = () => {
                     to="/project"
                     onClick={toggleMenu}
                   >
-                    Project
+                    Projelerim
                   </NavLink>
                 </>
               ) : (
@@ -103,7 +103,7 @@ const Navbar = () => {
                 </NavLink>
               )}
 
-              <Button onClick={downloadResume}>Resume</Button>
+              <Button onClick={downloadResume}>CV</Button>
             </motion.div>
           </>
         )}
