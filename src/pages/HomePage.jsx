@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import profileImage from "../assets/fa0vi.jpg";
+import profileImage from "../assets/favi.jpg";
 import React from "react";
 import { FaArrowRightLong, FaDiscord, FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
