@@ -72,7 +72,7 @@ const ProjectCard = ({ projectData }) => {
       <CardFooter className="flex items-end justify-end mt-auto">
         <a href={link} target="_blank" rel="noopener noreferrer">
           <Button>
-            Learn More <FaArrowRight className="ml-2" size="14px" />
+            Projeyi Gör <FaArrowRight className="ml-2" size="14px" />
           </Button>
         </a>
       </CardFooter>
