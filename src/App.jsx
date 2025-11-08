@@ -9,7 +9,7 @@ import Footer from "./components/ui/footer";
 
 const App = () => {
   useEffect(() => {
-    document.title = "Nafisarkar | Portfolio";
+    document.title = "Xinzore";
     const isDarkMode = localStorage.getItem("theme") === "dark";
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
