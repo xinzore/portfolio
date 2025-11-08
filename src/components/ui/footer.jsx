@@ -57,7 +57,7 @@ const Footer = () => {
               >
                 Figma
               </a>
-			  kullanıldı.
+			  {" "}kullanıldı.
             </div>
             <div className="font-RobotoMono text-xs mt-2 md:mt-0">
               &copy; {year} Xinzore
