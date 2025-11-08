@@ -163,20 +163,19 @@ const HomePage = () => {
                 variants={paragraphItemVariants}
                 className="font-bold text-3xl sm:text-4xl text-center md:text-left"
               >
-                Shaon An Nafi
+                Xinzore
               </motion.h1>
               <motion.h2
                 variants={paragraphItemVariants}
                 className="font-bold text-lg sm:text-xl text-center md:text-left mt-4"
               >
-                Software Engineer
+                Web Tasaımcı
               </motion.h2>
               <motion.p
                 variants={paragraphItemVariants}
                 className="text-center md:text-left font-PublicSans max-w-md mt-4"
               >
-                I am passionate about integrating functionality and design in
-                applications to create intuitive, user-friendly experiences.
+                Tasarım tutkum hiç bitmez umarım
               </motion.p>
             </motion.div>
 
@@ -194,7 +193,7 @@ const HomePage = () => {
                   }
                   className="w-full"
                 >
-                  Contact Me <FaArrowRightLong className="ml-2" />
+                  Bana Yazın <FaArrowRightLong className="ml-2" />
                 </Button>
               </motion.div>
               <motion.div variants={buttonItemVariants} className="w-full">
@@ -204,7 +203,7 @@ const HomePage = () => {
                   }
                   className="w-full"
                 >
-                  Schedule a Meeting <FaArrowRightLong className="ml-2" />
+                  Telegram'dan Yazın <FaArrowRightLong className="ml-2" />
                 </Button>
               </motion.div>
             </motion.div>
@@ -217,40 +216,25 @@ const HomePage = () => {
               animate="visible" // Trigger animation on load
             >
               <motion.a
-                href="https://github.com/Nafisarkar"
+                href="https://github.com/xinzore"
                 className="hover:transform hover:scale-110 transition-all"
                 variants={iconItemVariants}
               >
                 <FaGithub className="h-6 w-6  transition-colors" />
               </motion.a>
               <motion.a
-                href="https://www.linkedin.com/in/nafi-sarkar/"
-                className="hover:transform hover:scale-110 transition-all"
-                variants={iconItemVariants}
-              >
-                <FaLinkedin className="h-6 w-6 transition-colors" />
-              </motion.a>
-              <motion.a
-                href="https://discord.com/users/_sakuno"
+                href="https://discord.com/#"
                 className="hover:transform hover:scale-110 transition-all"
                 variants={iconItemVariants}
               >
                 <FaDiscord className="h-6 w-6  transition-colors" />
               </motion.a>
               <motion.a
-                href="https://www.instagram.com/_blindfox_/"
+                href="https://www.instagram.com/#/"
                 className="hover:transform hover:scale-110 transition-all"
                 variants={iconItemVariants}
               >
                 <PiInstagramLogoFill className="h-6 w-6  transition-colors" />
-              </motion.a>
-              <motion.a
-                href="https://wakatime.com/@Nafisarkar"
-                target="_blank"
-                className="hover:transform hover:scale-110 transition-all"
-                variants={iconItemVariants}
-              >
-                <SiDreamstime className="h-6 w-6 transition-colors" />
               </motion.a>
             </motion.div>
           </div>
@@ -264,7 +248,7 @@ const HomePage = () => {
             transition={{ duration: 0.5, delay: 0.1 }} // Optional delay for heading
             className="font-bold text-xl md:text-xl  mb-2"
           >
-            About Me
+            💻Hakkımda
           </motion.h2>
           <motion.div
             className="space-y-4 font-PublicSans text-gray-500 "
@@ -273,36 +257,13 @@ const HomePage = () => {
             animate="visible" // Or use whileInView="visible" and viewport={{ once: true, amount: 0.2 }}
           >
             <motion.p variants={paragraphItemVariants} className="text-justify">
-              I'm a computer science student passionate about creating seamless,
-              user-friendly experiences through thoughtful design and efficient
-              code. I love working at the intersection of frontend and backend
-              development, ensuring that applications are not only aesthetically
-              pleasing but also robust and scalable.
+              Dijital dünyada kapsamlı deneyime sahip bir web geliştirici ve çözüm mimarıyım. Temel yetkinliklerim, PHP, JavaScript, HTML ve CSS gibi modern web teknolojilerini kullanarak yüksek performanslı uygulamalar, eklentiler ve temalar tasarlayıp geliştirmeye odaklanmıştır. Özellikle popüler website yazılımları için özelleştirilmiş eklenti ve tema geliştirme konusunda uzmanlaşmış olup, bu sayede kullanıcıların ve işletmelerin özel ihtiyaçlarına uygun, görsel ve işlevsel çözümler sunuyorum. 
             </motion.p>
             <motion.p variants={paragraphItemVariants} className="text-justify">
-              {/* Currently, I'm focused on expanding my skills in web development,
-              with particular interest in React and Node.js. Through my
-              coursework and personal projects, I've gained experience in UI/UX
-              design principles, responsive layouts, and modern JavaScript
-              frameworks. I enjoy tackling complex problems and finding elegant
-              solutions that prioritize user experience while maintaining code
-              quality. */}
-              Currently, I'm focused on growing my web development skills, with
-              a strong interest in React and Node.js. Through coursework and
-              personal projects, I've gained experience in UI/UX design,
-              responsive layouts, and modern JavaScript frameworks. I enjoy
-              solving complex problems with elegant, user-focused solutions that
-              maintain high code quality.
+              İş akışımın önemli bir parçası, sadece kod yazmakla sınırlı kalmayıp, projelerin tüm yaşam döngüsünü yönetmektir. Bu kapsamda, sektörün önde gelen e-ticaret ve forum yazılımlarının kurulumu, yapılandırılması ve özelleştirilmesi konularında derin bilgiye sahibim. Müşterilerime sorunsuz bir dijital altyapı sağlamak için, cPanel ve diğer sunucu yönetim panel yazılımlarını etkin bir şekilde kullanabilmekteyim. Bu yetkinlik, geliştirdiğim uygulamaların ve kurduğum sistemlerin güvenli, istikrarlı ve optimize edilmiş bir ortamda çalışmasını garanti eder.
             </motion.p>
             <motion.p variants={paragraphItemVariants} className="text-justify">
-              {/* When I'm not coding, you'll find me exploring new technologies, or
-              expanding my knowledge through online courses. Beyond tech, I
-              enjoy photography in my free time, playing video games, reading
-              books, and occasionally traveling. I'm always looking for opportunities to
-              collaborate on projects that can make a positive impact. */}
-              Outside of coding, I enjoy exploring new tech, learning online,
-              photography, gaming, reading, and occasional travel. I'm always
-              open to impactful collaborations.
+              Amacım, teknik bilgimi ve pratik tecrübemi birleştirerek, müşterilerimin dijital hedeflerine ulaşmalarını sağlayacak sürdürülebilir ve ölçeklenebilir web çözümleri sunmaktır. Yenilikçi yaklaşımlarla, kullanıcı deneyimini ön planda tutan, modern ve etkili dijital varlıklar yaratmaya devam ediyorum.
             </motion.p>
           </motion.div>
         </div>

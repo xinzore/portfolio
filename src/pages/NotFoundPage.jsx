@@ -10,7 +10,7 @@ const NotFoundPage = () => {
     }, 2000); // Redirect after 2 seconds
   }, [navigation]);
   return (
-    <div className="flex felx-col justify-center items-center"> Not Found</div>
+    <div className="flex felx-col justify-center items-center"> Bulunamadı</div>
   );
 };
 

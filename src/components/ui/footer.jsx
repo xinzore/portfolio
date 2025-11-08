@@ -39,7 +39,7 @@ const Footer = () => {
         <footer className="w-full mb-6 flex justify-center flex-col-reverse items-center md:flex-row md:justify-between my-8 md:mx-12 ">
           <div className="flex flex-col justify-center items-center mx-8 md:mx-0 md:items-start md:text-start">
             <div className="font-RobotoMono text-xs text-center md:text-left">
-              Coded using{" "}
+              Kod için{" "}
               <a
                 href="https://code.visualstudio.com"
                 target="_blank"
@@ -48,7 +48,7 @@ const Footer = () => {
               >
                 Visual Studio Code
               </a>{" "}
-              and designed using{" "}
+              tasarım için{" "}
               <a
                 href="https://www.figma.com"
                 target="_blank"
@@ -57,9 +57,10 @@ const Footer = () => {
               >
                 Figma
               </a>
+			  kullanıldı.
             </div>
             <div className="font-RobotoMono text-xs mt-2 md:mt-0">
-              &copy; {year} Shaon An Nafi
+              &copy; {year} Xinzore
             </div>
           </div>
           <div className="flex flex-row justify-center items-center gap-4 mb-2 md:mb-0 ">

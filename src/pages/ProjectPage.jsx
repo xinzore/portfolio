@@ -83,7 +83,7 @@ const ProjectPage = () => {
           // No projects found, and not loading
           // This div needs to span all columns of the parent grid
           <div className="md:col-span-2 lg:col-span-3 text-center py-10 flex-grow flex items-center justify-center">
-            <p className="text-gray-500">No projects found.</p>
+            <p className="text-gray-500">Proje Bulunamadı.</p>
           </div>
         )}
       </div>
