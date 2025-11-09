@@ -53,16 +53,6 @@ const Navbar = () => {
     setIsOpen((prev) => !prev);
   };
 
-  const downloadResume = () => {
-    const link = document.createElement("a");
-    link.href = "/resume.pdf";
-    link.setAttribute("download", "resume.pdf");
-    link.style.display = "none";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   return (
     <div className="w-full  flex lg:justify-center lg:items-center">
       {/* mobile menu */}
@@ -99,11 +89,11 @@ const Navbar = () => {
                 </>
               ) : (
                 <NavLink className="cursor-pointer" to="/" onClick={toggleMenu}>
-                  About
+                  Hakkımda
                 </NavLink>
               )}
 
-              <Button onClick={downloadResume}>CV</Button>
+              <Button onClick={() => window.open("https://github.com/xinzore", "_blank")}>Github</Button>
             </motion.div>
           </>
         )}
@@ -135,7 +125,7 @@ const Navbar = () => {
             </NavLink>
           )}
 
-          <Button onClick={downloadResume}>CV</Button>
+          <Button onClick={() => window.open("https://github.com/xinzore", "_blank")}>Github</Button>
         </div>
         <AiOutlineMenu className="lg:hidden mx-8 size-5" onClick={toggleMenu} />
       </div>
