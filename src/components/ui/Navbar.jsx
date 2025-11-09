@@ -4,6 +4,7 @@ import Toggle from "./toggle";
 import { motion, AnimatePresence } from "motion/react";
 import { NavLink, useLocation } from "react-router";
 import { AiOutlineMenu } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -93,7 +94,7 @@ const Navbar = () => {
                 </NavLink>
               )}
 
-              <Button onClick={() => window.open("https://github.com/xinzore", "_blank")}>Github</Button>
+              <Button onClick={() => window.open("https://github.com/xinzore", "_blank")}><FaGithub className="h-6 w-6  transition-colors" />Github</Button>
             </motion.div>
           </>
         )}
@@ -125,7 +126,7 @@ const Navbar = () => {
             </NavLink>
           )}
 
-          <Button onClick={() => window.open("https://github.com/xinzore", "_blank")}>Github</Button>
+          <Button onClick={() => window.open("https://github.com/xinzore", "_blank")}><FaGithub className="h-6 w-6  transition-colors" />Github</Button>
         </div>
         <AiOutlineMenu className="lg:hidden mx-8 size-5" onClick={toggleMenu} />
       </div>
