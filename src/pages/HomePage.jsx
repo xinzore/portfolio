@@ -189,7 +189,7 @@ const HomePage = () => {
               <motion.div variants={buttonItemVariants} className="w-full">
                 <Button
                   onClick={() =>
-                    window.open("https://discord.com/users/_sakuno", "_blank")
+                    window.open("mailto:xinzore@gmail.com", "_blank")
                   }
                   className="w-full"
                 >
@@ -199,7 +199,7 @@ const HomePage = () => {
               <motion.div variants={buttonItemVariants} className="w-full">
                 <Button
                   onClick={() =>
-                    window.open("https://calendly.com/sarkarnafe", "_blank")
+                    window.open("https://t.me/+0Zj6Fdx88zI2YmY0", "_blank")
                   }
                   className="w-full"
                 >
@@ -223,7 +223,7 @@ const HomePage = () => {
                 <FaGithub className="h-6 w-6  transition-colors" />
               </motion.a>
               <motion.a
-                href="https://discord.com/#"
+                href="https://discord.com/users/691314439101874256"
                 className="hover:transform hover:scale-110 transition-all"
                 variants={iconItemVariants}
               >
