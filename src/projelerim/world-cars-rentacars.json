@@ -1,0 +1,14 @@
+{
+  "id": "world-cars-rentacars",
+  "category": "Web Tasarım",
+  "title": "World Cars Rentacars",
+  "description": "Araç kiralama websitesi",
+  "techstacks": [
+    "HTML 53%",
+    "CSS 40%",
+    "JavaScript 7%"
+  ],
+  "link": "https://www.worldcars.com.tr/",
+  "githubLink": "https://github.com/xinzore/worldcars",
+  "date": "2025-11-08 21:49:44.365134+00"
+}

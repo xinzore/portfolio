@@ -1,90 +1,64 @@
-# Brutalist Portfolio
+# Neobrutalism Portfolio
 
-<p align="center">
-  <img src="./public/demo.webp" alt="Brutalist Portfolio Banner" />
-</p>
+Neobrutalism estetikle tasarlanmis, Vite + React tabanli kisisel portfolio.
+Projeler statik JSON dosyalariyla yonetilir ve GitHub repo bilgisi olan
+projeler icin techstack yuzdeleri build oncesi otomatik guncellenir.
 
-A modern, responsive frontend application built with React, Vite, Tailwind CSS v4, and Shadcn/UI.
+## Ozellikler
+- Neobrutalism arayuz, responsive sayfa yapisi
+- JSON tabanli proje yonetimi (`src/projelerim/*.json`)
+- GitHub Languages API ile techstack yuzdeleri
+- Vercel uyumlu build akisi
 
-## Table of Contents
-
-- [Brutalist Portfolio](#brutalist-portfolio)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Tech Stack](#tech-stack)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Folder Structure](#folder-structure)
-  - [Best Practices](#best-practices)
-  - [License](#license)
-
-## Features
-
-- Clean, component-driven architecture
-- Utility-first styling with Tailwind CSS v4
-- Ready-to-use Shadcn/UI components
-- Blazing-fast HMR & builds via Vite
-- Mobile-first, accessible UI
-
-## Tech Stack
-
-- React 18+
-- Vite 4+
-- Tailwind CSS v4
-- Shadcn/UI
-- Lucide React Icons
-
-## Installation
-
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+## Kurulum
+```
 npm install
-```
-
-## Usage
-
-```bash
-# Start dev server
 npm run dev
+```
 
-# Build for production
+## Proje Verisi
+Her proje icin `src/projelerim/` altina bir JSON dosyasi eklenir.
+
+Ornek:
+```json
+{
+  "id": "ornek-proje",
+  "category": "web",
+  "title": "Ornek Portfolio",
+  "description": "Kisa aciklama",
+  "techstacks": ["Vite", "React", "Tailwind"],
+  "link": "https://example.com",
+  "githubLink": "https://github.com/kullanici/repo",
+  "date": "2024-12-01"
+}
+```
+
+- `githubLink` varsa build oncesi techstack yuzdeleri guncellenir.
+- `date` siralama icin kullanilir (yeni olan ustte).
+
+## GitHub Techstack Guncelleme
+```
+npm run update:github-techstacks
+```
+
+Rate limit problemi olmamasi icin:
+```
+GITHUB_TOKEN=... npm run update:github-techstacks
+```
+
+## Build
+```
 npm run build
-
-# Preview production build
-npm run preview
 ```
 
-## Folder Structure
+Build oncesi `prebuild` otomatik calisir ve GitHub techstackleri gunceller.
 
-```
-.
-├── public
-│   └── index.html
-├── src
-│   ├── assets
-│   ├── components
-│   │   └── ui
-│   ├── hooks
-│   ├── lib
-│   ├── pages
-│   ├── App.jsx
-│   └── main.jsx
-├── .env
-├── tailwind.config.js
-├── postcss.config.js
-├── vite.config.js
-└── README.md
-```
+## Vercel
+- Environment Variables icine `GITHUB_TOKEN` ekle.
+- Deploy yeniden tetikle.
 
-## Best Practices
-
-- Favor functional components and React Hooks
-- Keep components focused and reusable
-- Use descriptive prop names and destructuring
-- Always supply unique `key` props for lists
-- Enforce code style with ESLint & Prettier
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
+## Gelistirme Scriptleri
+- `npm run dev` development server
+- `npm run build` production build
+- `npm run preview` production preview
+- `npm run update:github-techstacks` techstack guncelleme

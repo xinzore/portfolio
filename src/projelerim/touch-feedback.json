@@ -1,0 +1,13 @@
+{
+  "id": "touch-feedback",
+  "category": "Firefox Eklentisi",
+  "title": "Touch Feedback",
+  "description": "Mobil Firefox'a Canlılık Katın! Tıkladığınız her bağlantı ve başlıkta yarım saniyelik görsel geri bildirim alın. Mobil deneyimi iyileştirir.",
+  "techstacks": [
+    "Html",
+    "Css",
+    "Javascript"
+  ],
+  "link": "https://addons.mozilla.org/tr/firefox/addon/touch-feedback/",
+  "date": "2025-11-08 21:44:58.677576+00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "snowflatx",
+  "category": "Question2Answer Teması",
+  "title": "SnowFlatX",
+  "description": "Question2Answer yazılımı için tema",
+  "techstacks": [
+    "CSS 77%",
+    "PHP 21%",
+    "JavaScript 2%"
+  ],
+  "link": "https://github.com/xinzore/SnowFlatX",
+  "githubLink": "https://github.com/xinzore/SnowFlatX",
+  "date": "2025-11-08 16:31:10.29412+00"
+}

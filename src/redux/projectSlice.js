@@ -1,22 +1,41 @@
 // src/redux/projectSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { supabase } from "../utils/supabase";
+
+const projectModules = import.meta.glob("../projelerim/*.json", {
+  eager: true,
+});
+
+const toTime = (value) => {
+  const time = Date.parse(value);
+  return Number.isNaN(time) ? 0 : time;
+};
+
+const buildProjects = () => {
+  const projects = Object.entries(projectModules).map(([path, module]) => {
+    const data = module?.default ?? module;
+    const fileName = path.split("/").pop() || "";
+    const fallbackId = fileName.replace(/\.json$/, "");
+
+    return {
+      id: data?.id ?? fallbackId,
+      category: data?.category ?? "",
+      title: data?.title ?? "",
+      description: data?.description ?? "",
+      techstacks: Array.isArray(data?.techstacks) ? data.techstacks : [],
+      link: data?.link ?? "#",
+      date: data?.date ?? "",
+      githubLink: data?.githubLink ?? "",
+    };
+  });
+
+  return projects.sort((a, b) => toTime(b.date) - toTime(a.date));
+};
 
 // Async thunk to fetch projects
 export const fetchProjects = createAsyncThunk(
   "projects/fetchProjects",
   async () => {
-    const { data, error } = await supabase.from("projects").select("*");
-    if (error) throw new Error(error.message);
-
-    return data.reverse().map((project) => ({
-      id: project.id,
-      category: project.category,
-      title: project.title,
-      description: project.description,
-      techstacks: project.techstacks || [],
-      link: project.link || "#",
-    }));
+    return buildProjects();
   }
 );
 

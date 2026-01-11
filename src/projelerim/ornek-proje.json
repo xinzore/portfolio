@@ -1,0 +1,15 @@
+{
+  "id": "deviceinfo",
+  "category": "web",
+  "title": "Cihaz Info",
+  "description": "CihazInfo; cihazları filtreleme, karşılaştırma ve detay sayfalarında yorum/puanlama gibi kullanıcı özellikleri sunan, aynı zamanda kapsamlı bir admin paneli ile içerik yönetimini kolaylaştıran bir platformdur.",
+  "techstacks": [
+    "TypeScript 83%",
+    "CSS 13%",
+    "HTML 3%",
+    "JavaScript 1%"
+  ],
+  "link": "https://cihazinfo.vercel.app/",
+  "githubLink": "https://github.com/xinzore/deviceinfo",
+  "date": "2026-01-11"
+}

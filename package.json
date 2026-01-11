@@ -6,14 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "prebuild": "npm run update:github-techstacks",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "update:github-techstacks": "node scripts/update-github-techstacks.cjs"
   },
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.2.12",
     "@radix-ui/react-slot": "^1.2.2",
     "@reduxjs/toolkit": "^2.8.2",
-    "@supabase/supabase-js": "^2.49.4",
     "@tailwindcss/vite": "^4.1.6",
     "axios": "^1.9.0",
     "class-variance-authority": "^0.7.1",

@@ -1,0 +1,12 @@
+{
+  "id": "rastgele-sifre-olusturucu",
+  "category": "Firefox Eklentisi",
+  "title": "Rastgele Şifre Oluşturucu",
+  "description": "Rastgele Şifre Oluşturan Basit Bir Eklentidir",
+  "techstacks": [
+    "HTML 100%"
+  ],
+  "link": "https://addons.mozilla.org/tr/firefox/addon/rastgele-%C5%9Fifre-olu%C5%9Fturucu/",
+  "githubLink": "https://github.com/xinzore/xinzore.github.io",
+  "date": "2025-11-08 21:58:02.362497+00"
+}

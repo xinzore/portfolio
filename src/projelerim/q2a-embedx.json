@@ -1,0 +1,13 @@
+{
+  "id": "q2a-embedx",
+  "category": "Question2Answer Eklentisi",
+  "title": "q2a-embedX",
+  "description": "Question2Answer yazılımı için media gömme eklentisi",
+  "techstacks": [
+    "PHP 99%",
+    "CSS 1%"
+  ],
+  "link": "https://github.com/xinzore/q2a-embedX",
+  "githubLink": "https://github.com/xinzore/q2a-embedX",
+  "date": "2025-11-08 21:52:57.876378+00"
+}

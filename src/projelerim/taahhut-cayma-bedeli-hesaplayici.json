@@ -1,0 +1,14 @@
+{
+  "id": "taahhut-cayma-bedeli-hesaplayici",
+  "category": "Basit Araçlar",
+  "title": "Taahhüt Cayma Bedeli Hesaplayıcı",
+  "description": "BTK kurallarına göre operatörlerin uyguladığı iki formül arasından daha düşük olan tahmini cayma bedelini hesaplayan basit bir araç",
+  "techstacks": [
+    "Html",
+    "Css",
+    "JS",
+    "Bootstrap"
+  ],
+  "link": "https://xinzore.github.io/caymabedeli.html",
+  "date": "2025-11-08 22:01:27.686298+00"
+}

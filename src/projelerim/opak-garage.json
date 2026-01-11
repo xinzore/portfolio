@@ -1,0 +1,14 @@
+{
+  "id": "opak-garage",
+  "category": "Website Tasarım",
+  "title": "Opak Garage",
+  "description": "Premium Otomotiv PPF Kaplama ve Cam Filmi Web Sitesi",
+  "techstacks": [
+    "TypeScript 96%",
+    "CSS 2%",
+    "JavaScript 2%"
+  ],
+  "link": "https://opakgarage.com",
+  "githubLink": "https://github.com/xinzore/opak",
+  "date": ""
+}
