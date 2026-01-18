@@ -3,7 +3,10 @@
   "category": "Website Tasarım",
   "title": "KodSync",
   "description": "kopyala yapıştır, kod chat",
-  "techstacks": [],
+  "techstacks": [
+
+    
+  ],
   "link": "https://kodsync.vercel.app/",
   "githubLink": "https://github.com/xinzore/note-code",
   "date": ""
