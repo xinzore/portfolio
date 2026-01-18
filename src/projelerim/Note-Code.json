@@ -1,0 +1,11 @@
+{
+  "id": "note-code",
+  "category": "Website Tasarım",
+  "title": "KodSync",
+  "description": "kopyala yapıştır, kod chat",
+  "techstacks": [
+  ],
+  "link": "https://kodsync.vercel.app/",
+  "githubLink": "https://github.com/xinzore/Note-Code",
+  "date": ""
+}
