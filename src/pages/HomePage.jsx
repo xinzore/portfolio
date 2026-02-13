@@ -169,13 +169,13 @@ const HomePage = () => {
                 variants={paragraphItemVariants}
                 className="font-bold text-lg sm:text-xl text-center md:text-left mt-4"
               >
-                Web Tasaımcı
+                Vibe Coder
               </motion.h2>
               <motion.p
                 variants={paragraphItemVariants}
                 className="text-center md:text-left font-PublicSans max-w-md mt-4"
               >
-                Tasarım tutkum hiç bitmez umarım
+                Tasarım ve Vibe Code
               </motion.p>
             </motion.div>
 
